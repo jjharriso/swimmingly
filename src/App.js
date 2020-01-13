@@ -4,7 +4,6 @@ import { withStyles } from '@material-ui/core/styles';
 import {styleSheet} from './App.styles';
 import Header from './components/header';
 import Main from './containers/main';
-import Footer from './components/footer';
 
 function App(props) {
   const {classes} = props;
@@ -12,7 +11,6 @@ function App(props) {
     <div className={classes.root}>
       <Header />
       <Main />
-      <Footer />
     </div>
   );
 }

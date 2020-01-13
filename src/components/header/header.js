@@ -13,6 +13,7 @@ const Header = (props) => {
             <h1 className={classes.name}>
                 <a className={classes.link} href="#">Swimmingly</a>
             </h1>
+            <p className={classes.tag}>Wait, What?! Development</p>
       </header>
     )
 };

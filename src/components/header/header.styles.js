@@ -13,13 +13,15 @@ export const styles = {
 
     name: {
         fontSize: "1em",
+        flex: "none"
     },
 
     logo: {
         pointerEvents: "none",
         width: "3em",
         height: "3em",
-        margin: ".1em"
+        margin: ".1em",
+        flex: "none"
     },
 
 
@@ -30,5 +32,13 @@ export const styles = {
         "&:hover": {
             cursor: "pointer"
         }
+    },
+
+    tag: {
+        color: "rgba(255, 255, 255, .6)",
+        fontSize: ".5em",
+        flex: "1 0 auto",
+        textAlign: "right",
+        padding: "0 1em"
     }
 };
